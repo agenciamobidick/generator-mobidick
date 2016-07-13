@@ -1,0 +1,93 @@
+{
+  "_args": [
+    [
+      "generator-mobidick",
+      ""
+    ]
+  ],
+  "_from": "generator-mobidick@latest",
+  "_id": "generator-mobidick@2.0.2",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/generator-mobidick",
+  "_nodeVersion": "0.10.29",
+  "_npmUser": {
+    "email": "wes@wesleytodd.com",
+    "name": "wesleytodd"
+  },
+  "_npmVersion": "2.1.4",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "generator-mobidick",
+    "raw": "generator-mobidick",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/generator-mobidick/-/generator-mobidick-2.0.2.tgz",
+  "_shasum": "cf4d1459da53caba8fe8a22bacadf8a15c0d78dc",
+  "_shrinkwrap": null,
+  "_spec": "generator-mobidick",
+  "_where": "",
+  "author": {
+    "name": "Mobidick"
+  },
+  "bugs": {
+    "url": "https://github.com/wesleytodd/YeoPress/issues"
+  },
+  "dependencies": {
+    "chalk": "^0.2.1",
+    "mkdirp": "^0.3.5",
+    "mysql": "^2.0.1",
+    "simple-git": "^0.14.0",
+    "wp-util": "^0.1.6",
+    "wrench": "^1.4.4",
+    "yeoman-generator": "^0.19.2"
+  },
+  "description": "A Yeoman generator for WordPress",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-connect": "~0.5.0",
+    "grunt-simple-mocha": "~0.4.0",
+    "istanbul": "~0.1.44",
+    "mocha": "~1.13.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "cf4d1459da53caba8fe8a22bacadf8a15c0d78dc",
+    "tarball": "https://registry.npmjs.org/generator-mobidick/-/generator-mobidick-2.0.2.tgz"
+  },
+  "gitHead": "03dd6adb39f69fdd0c954f98f2399f3138252fe5",
+  "homepage": "https://github.com/agenciamobidick",
+  "keywords": [
+    "yeoman-generator",
+    "wordpress",
+    "yeoman",
+    "generator",
+    "cli"
+  ],
+  "license": "BSD",
+  "main": "app/index.js",
+  "maintainers": [
+    {
+      "email": "contato@agenciamobidick.com.br",
+      "name": "agenciamobidick"
+    }
+  ],
+  "name": "generator-mobidick",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/agenciamobidick.git"
+  },
+  "scripts": {
+    "test": "node_modules/istanbul/lib/cli.js test node_modules/mocha/bin/_mocha --dir test/coverage"
+  },
+  "version": "2.0.2"
+}
