@@ -23,7 +23,7 @@ chalk.rainbow = function(str) {
 module.exports = {
 	wp : [
 		'',
-		chalk.bold.blue('                Mobidick'),
+		chalk.bold.blue('                   Mobidick'),
 		'',
 chalk.cyan('')+
 chalk.cyan('                 ::::::::')+chalk.white('  *******        '),

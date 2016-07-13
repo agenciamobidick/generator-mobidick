@@ -1,6 +1,6 @@
 ![image](https://scontent.fgig1-1.fna.fbcdn.net/v/t1.0-9/1908347_267402813463714_2640413290531538257_n.png?oh=d5ff3cd7928ee08a74145c8e14a0c658&oe=58288439)
 
-# YeoPress
+# Mobidick Theme
 
 The officially un-official [Yeoman](https://github.com/yeoman/yeoman) Generator for [WordPress](http://wordpress.org/).  I magically take you from scratching your head wondering where to start, all the way to running the famous 5-minute install.  I have configuration options that will WOW you.  If you use Git, I can *git* you off the ground with WordPress as a submodule just by following a couple of prompts.  Have a custom base theme you always start your projects off with?  You can install that too, either straight from GitHub or by pointing me to a tarball.  Other things I do:
 
@@ -10,7 +10,7 @@ The officially un-official [Yeoman](https://github.com/yeoman/yeoman) Generator 
 - Permission setting on install
 - Create your database, all you have to do is make me a user
 - Built in Vagrant configuration
-- *New* Set custom defaults with `.yeopress` files
+- *New* Set custom defaults with `.mobidick` files
 - *New* Environment based wp-config files, `local-config.php`
 
 ## How To Use
