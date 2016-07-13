@@ -1,4 +1,4 @@
-![image](http://wesleytodd.com/media/pages/index/yeopress.jpg)
+![image](https://scontent.fgig1-1.fna.fbcdn.net/v/t1.0-9/1908347_267402813463714_2640413290531538257_n.png?oh=d5ff3cd7928ee08a74145c8e14a0c658&oe=58288439)
 
 # YeoPress
 
@@ -42,37 +42,37 @@ By specifying the `--advanced` flag you get access to more features:
 
 ### Reusing common settings
 
-You probably want to be able to quickly zip through your install with similar settings for every project.  For example, you probably always want to use git but the default is no git.  You can define any custom defaults you want in `~/.yeopress`.  This file is just a json file with key-value pairs for the config settings you want.  Here is an example:
+You probably want to be able to quickly zip through your install with similar settings for every project.  For example, you probably always want to use git but the default is no git.  You can define any custom defaults you want in `~/.mobidick`.  This file is just a json file with key-value pairs for the config settings you want.  Here is an example:
 
 ```json
 {
 	"git": true,
 	"dbHost": "localhost",
-	"dbName": "yeopress",
-	"dbUser": "yeopress",
-	"dbPass": "yeopress"
+	"dbName": "mobidick",
+	"dbUser": "mobidick",
+	"dbPass": "mobidick"
 }
 ```
 
-For a full example, open up the local `.yeopress` file that is created by the generator.  This file is located in the directory you ran `yo mobidick` in.
+For a full example, open up the local `.mobidick` file that is created by the generator.  This file is located in the directory you ran `yo mobidick` in.
 
 ## Installing WordPress Plugins
 
-New with `v1.4.0` is a subgenerator for installing plugins, `yo mobidick:plugin`.  You can supply a comma delimited list of plugin slugs to download.  YeoPress will download and unzip those plugins into your content directory.
+New with `v1.4.0` is a subgenerator for installing plugins, `yo mobidick:plugin`.  You can supply a comma delimited list of plugin slugs to download.  mobidick will download and unzip those plugins into your content directory.
 
-### Visual Learner??
+<!-- ### Visual Learner??
 
 [Watch the video](http://www.youtube.com/watch?v=Em-NMCgNhhY).
 
 ADD Visual Learner?  [Watch the shorter video](http://www.youtube.com/watch?v=WSG0P5VpSUk).
 
-[Also see the wiki](https://github.com/wesleytodd/YeoPress/wiki)
+[Also see the wiki](https://github.com/wesleytodd/mobidick/wiki)
 
-[And here is the boring write-up...](http://wesleytodd.com/2013/5/yeopress-a-yeoman-generator-for-wordpress.html)
+[And here is the boring write-up...](http://wesleytodd.com/2013/5/mobidick-a-yeoman-generator-for-wordpress.html) -->
 
 ## Themes
 
-Custom themes can be installed from GitHub or a Tarball.  Once installed, they are responsible for their own Gruntfile and related tasks.  A basic example template can be found in the [template branch](https://github.com/wesleytodd/YeoPress/tree/template) of this repo.  The example template comes with a few grunt tasks pre-configured:
+Custom themes can be installed from GitHub or a Tarball.  Once installed, they are responsible for their own Gruntfile and related tasks.  A basic example template can be found in the [template branch](https://github.com/wesleytodd/mobidick/tree/template) of this repo.  The example template comes with a few grunt tasks pre-configured:
 
 - Regarde ([grunt-regarde](https://npmjs.org/package/grunt-regarde))
 - Live Reload ([grunt-contrib-livereload](https://npmjs.org/package/grunt-contrib-livereload))
@@ -80,6 +80,4 @@ Custom themes can be installed from GitHub or a Tarball.  Once installed, they a
 - JSHint ([grunt-contrib-jshint](https://npmjs.org/package/grunt-contrib-jshint))
 - Bower ([grunt-bower-requirejs](https://npmjs.org/package/grunt-bower-requirejs))
 - RequireJS ([grunt-contrib-requirejs](https://npmjs.org/package/grunt-contrib-requirejs))
-
-More information on themes [here](https://github.com/wesleytodd/YeoPress/wiki/Themes) & [here](http://wesleytodd.com/2013/5/yeopress-themes.html)
 
