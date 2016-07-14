@@ -209,7 +209,7 @@ module.exports = function(advanced, defaults) {
 			default: defaults.refreshRemote || true,
 			validate: requiredValidate,
 			when: function(res) {
-				return advanced && !!res.installTheme && res.themeType == 'git';
+				return !!res.installTheme && res.themeType == 'git';
 			}
 		}, {
 			message: 'Remote tarball url',
